@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_GPS">Sorry, GPS has to be enabled to play this game.</string>
+    <string name="error_no_Mobile_Data">Sorry, Mobile data has to be enabled to play this game.</string>
+    <string name="error_create_server">Could not create server. Check your connection.</string>
+    <string name="error_join_server">Could not join server. Check your connection.</string>
+    <string name="error_createaccount">Could not create account. Check your connection.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="general_creating_game">Creating you game server &#8230;</string>
+    <string name="general_joining_game">Joining game server &#8230;</string>
+	<string name="general_fetching_servers">Fetching the servers list &#8230;</string>
+	<string name="general_deleting_serer">Deleting the server from the list &#8230;</string>
+	<string name="general_logging">Logging in &#8230;</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pi&amp;Vi</string>
+    
+    <!-- HEADER -->
+    <string name="cd_shield">Shield</string>
+    <string name="cd_sword">Sword</string>
+    <string name="cd_axe">Axe</string>
+    
+    <!-- SPLASH SCREEN -->
+    <string name="GPS_dialog">Enable GPS?</string>
+    <string name="Mobile_Data_dialog">Enable mobile data?</string>
+    
+    <!-- LOGIN SCREEN -->
+    <string name="login_title">Login</string>
+    <string name="cd_pirates">Pirates</string>
+    <string name="cd_vikings">Vikings</string>
+    <string name="button_login">Login</string>   
+    <string name="login_intro">Choose a Google account to login with:</string>
+    <string name="login_prompt">Choose an account</string>
+    <string name="login_nickname_hint">nickname</string>
+    <string name="login_nickname">Nickname:</string>
+    
+    <!-- SERVERS SCREEN -->
+    <string name="servers_title">Nearby Servers</string>
+    <string name="servers_introlabel">Nearby games</string>
+    <string name="servers_create">Create</string>
+    <string name="servers_dialog_delete">Delete server?</string>
+    <string name="servers_refresh">Refresh</string>
+    
+    <!-- CREATE SERVER SCREEN -->
+    <string name="createserver_title">Create new server</string>
+    <string name="createserver_name_tv">Server name</string>
+    <string name="createserver_name_et">Server name</string>
+    <string name="createserver_playtime">Playtime</string>
+    <string name="createserver_playtime_prompt">Playtime</string>    
+    <string name="createserver_players">Number of players</string>
+    <string name="createserver_players_prompt">Number of players</string>
+    <string name="createserver_create">Create server</string>
+    <string-array name="createserver_playtime_arr">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+    </string-array>
+    <string-array name="createserver_players_arr">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    
+    <!-- CURRENT SERVER -->
+    <string name="currentserver_title">Current server</string>
+    <string name="currentserver_start">Start Game</string>
+    
+    
+    <string name="cd_icon">User icon</string>
+     
+    <!-- CHAT FRAGMENT -->
+	<string name="button_sendmessage">Send</string>
+
+</resources>

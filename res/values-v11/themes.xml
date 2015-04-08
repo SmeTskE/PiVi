@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Theme.PiVi" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:actionBarTabBarStyle">@style/Widget.PiVi.ActionBar.TabBar</item>
+       	<item name="actionBarTabBarStyle">@style/Widget.PiVi.ActionBar.TabBar</item>
+    </style>
+    
+</resources>

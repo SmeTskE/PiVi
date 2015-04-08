@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Widget.PiVi.ActionBar.TabBar" parent="@style/Widget.Sherlock.ActionBar.TabBar">
+        <item name="android:background">#FFFF0000</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginBottom="30dp" >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_axe"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_bijl" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_sword"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_zwaard" />
+
+    <ImageView
+        android:id="@+id/shield"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_shield"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_schild" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/shield"
+        android:contentDescription="@string/cd_pirates"
+        android:scaleType="fitXY"
+        android:src="@drawable/pirate" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/shield"
+        android:contentDescription="@string/cd_vikings"
+        android:scaleType="fitXY"
+        android:src="@drawable/viking" />
+
+</RelativeLayout>

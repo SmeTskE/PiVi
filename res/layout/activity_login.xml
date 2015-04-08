@@ -1,0 +1,54 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp" >
+
+    <!-- HEADER -->
+    <include
+        android:id="@+id/login_header"
+        layout="@layout/header" />
+    
+    <!-- LOGIN PART -->
+    <TextView
+        android:id="@+id/login_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_header"
+        android:text="@string/login_intro"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/login_account_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_intro"
+        android:prompt="@string/login_prompt" />
+    
+<TextView
+        android:id="@+id/login_nickname_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_account_spinner"
+        android:text="@string/login_nickname"
+        android:textStyle="bold" 
+        android:layout_marginTop="10dp"/>
+    
+<EditText 
+    	android:id="@+id/login_nickname_et"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/login_nickname_tv"
+    	android:hint="@string/login_nickname_hint"
+    	/>
+    
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/button_login" />
+
+</RelativeLayout>

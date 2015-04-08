@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Theme.PiVi" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.PiVi.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.PiVi.ActionBar</item>
+        
+       	<item name="actionBarTabBarStyle">@style/Widget.PiVi.ActionBar.TabBar</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.PiVi.ActionBar.TabBar</item>
+        
+        <item name="actionBarTabTextStyle">@style/Widget.PiVi.ActionBar.TabText</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.PiVi.ActionBar.TabText</item>
+        
+        <item name="actionBarTabStyle">@style/Widget.PiVi.ActionBar.TabView</item>
+        <item name="android:actionBarTabStyle">@style/Widget.PiVi.ActionBar.TabView</item>
+    </style>
+    
+</resources>

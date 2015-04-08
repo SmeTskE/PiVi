@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="Widget.PiVi.ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">#FFFF0000</item>
+    </style>
+    
+    <style name="Widget.PiVi.ActionBar.TabBar" parent="@style/Widget.Sherlock.ActionBar.TabBar">
+        <item name="android:background">#FFFF0000</item>
+    </style>
+    
+    <style name="Widget.PiVi.ActionBar.TabText" parent="@style/Widget.Sherlock.ActionBar.TabText">
+        <item name="android:color">#FFFF0000</item> 
+    </style>
+    
+    <style name="Widget.PiVi.ActionBar.TabView" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">#FFFF0000</item>
+    </style>
+    
+</resources>

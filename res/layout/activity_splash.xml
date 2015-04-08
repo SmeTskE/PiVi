@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp" >
+    
+    <ImageView
+        android:id="@+id/splash_axe"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_axe"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_bijl"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/splash_sword"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_sword"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_zwaard"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/splash_shield"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_shield"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_schild"
+        android:visibility="invisible" />
+    
+    <View
+        android:id="@+id/splash_center"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/splash_pirate"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/splash_center"
+        android:contentDescription="@string/cd_pirates"
+        android:scaleType="fitXY"
+        android:src="@drawable/pirate"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/splash_viking"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/splash_center"
+        android:contentDescription="@string/cd_vikings"
+        android:scaleType="fitXY"
+        android:src="@drawable/viking"
+        android:visibility="invisible" />
+    
+    <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_shield"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:id="@+id/splash_progress"/>
+
+</RelativeLayout>
